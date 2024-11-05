@@ -1,4 +1,4 @@
 # apnacollege---demo
 This is my repository
 <br>
-Author - Madhur Suryawasnhi
+Author - Madhur (apna college)
