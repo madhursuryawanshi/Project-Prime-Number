@@ -22,7 +22,7 @@ private static bool isprime(int k)
     {
          int d=11;
          bool u = isprime(d);
- Console.WriteLine("Prime Numbers" +u);
+ Console.WriteLine("Prime Numbers" +u );
    }
    }
 }
