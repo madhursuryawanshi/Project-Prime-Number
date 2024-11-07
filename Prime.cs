@@ -26,3 +26,22 @@ private static bool isprime(int k)
    }
    }
 }
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Prime prime = new Prime(); 
+            Console.WriteLine("Prime numbers up to 30:");
+            for (int i = 2; i <= 100; i++)
+            {
+                bool check = prime.IsPrime(i);
+                if (check)
+                {
+                    Console.WriteLine(i); 
+                }
+            }
+            int d = 12;
+            bool u = prime.IsPrime(d);
+            Console.WriteLine("prime Numner is " + u);           
+        }
+    }
