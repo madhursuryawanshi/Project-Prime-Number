@@ -18,14 +18,6 @@ private static bool isprime(int k)
         }
         return isprime;
     }
-    public static void Main(string[] args)
-    {
-         int d=11;
-         bool u = isprime(d);
- Console.WriteLine("Prime Numbers" +u );
-   }
-   }
-}
 public class Program
     {
         public static void Main(string[] args)
