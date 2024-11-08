@@ -1,52 +1,31 @@
-using System;
-namespace HelloWorld
-{
-static class Programm
-{
-private static bool isprime(int k)
- {
-        bool isprime = true;
-        for (int i = 2; i < k; i++)
-        {
-            int Temp = k % i;
-            // int Temp = k%i;
-            if (Temp == 0)
-            {
-                isprime = false;
-                break;
-            }
-        }
-        return isprime;
-    }
-
 class NewPrime : Prime
 {
     public bool isprime(int number)  //override
     {
         if (number <= 1)         //
         {
-              return false
+             false;
         }
         // if (number == 2)  //true
         //     {
-                  return true
-            }
-                if (number % 2 == 0)   // even number not find 
-                {
-
+       }   return true
+ if (number % 2 == 0)   // even number not find 
+   {
+        return false   
                 }  // false              // odd number not find      
                         if (number % i==0 )
-                    {
-        for (int i=2;i<=40;i++)
+                {
+        for (int i=2;i<=num;i++)
+      // factor show to the outp
+    } 
+ return true;
+Console.WriteLine(i);
+}
 
-        // factor show to the output
-
-}   return true;
 // public bool isprime(int number)  // Same method name override
 //     {
 //         return isPrime()
 //     }
-}
 public class Program
 {
     public static void Main(string[] args)
@@ -64,7 +43,7 @@ public class Program
         }
         int d = 12;
         bool u = prime.IsPrime(d);
-        Console.WriteLine("prime Numner is " + u);
+        Console.WriteLine("prime Numner is " + u);        
         bool ad = NewPrime.Isprime(m);
         Console.WriteLine("prime number is" + ad);
     }
